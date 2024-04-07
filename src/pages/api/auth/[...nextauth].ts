@@ -1,7 +1,6 @@
 import { authorize } from "@/auth/authorize";
 import { jwtCallback } from "@/auth/callbacks/jwtCallback";
 import { sessionCallback } from "@/auth/callbacks/sessionCallback";
-import { ONE_DAY } from "@/auth/constants";
 import NextAuth from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
 
@@ -24,10 +23,5 @@ export default NextAuth({
     pages: {
         signIn: '/auth/signin',
         error: '/auth/error',
-    },
-    session: {
-        strategy: 'jwt',
-        maxAge: ONE_DAY, // 1 day
-        updateAge: ONE_DAY, // 1 day
     },
 });
