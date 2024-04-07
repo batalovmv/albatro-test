@@ -1,0 +1,30 @@
+.signInOptions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.forgotPassword {
+    color: #4397C4;
+    text-decoration: none;
+}
+
+.forgotPassword:hover {
+    text-decoration: underline;
+}
+
+.signUp {
+    color: #fff;
+}
+
+.signUp a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.signUp a:hover {
+    text-decoration: underline;
+}

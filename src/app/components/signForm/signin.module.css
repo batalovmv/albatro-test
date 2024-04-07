@@ -1,0 +1,144 @@
+
+
+.signInContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-color: #4397C4;
+}
+
+.signInCard {
+    background: white;
+    padding: 4rem 4rem 2rem;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 330px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0rem;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 0;
+    font-weight: 100;
+    color: #4397C4;
+    font-family: 'Arial', sans-serif;
+}
+
+.signInForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputGroup {
+    margin-top: 3rem;
+    position: relative;
+
+}
+
+.inputGroup input {
+    width: 90%;
+    padding: 0.5rem 0.5rem 0.5rem 2.5rem;
+    border: 0px solid #4397C4;
+    border-bottom: 2px solid #ccc;
+    border-radius: 0px;
+    outline: none;
+    
+}
+.inputGroup input::placeholder {
+    font-size: 16px;
+   color: #ccc;
+    font-style: italic;
+}
+
+.inputIcon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #4397C4;
+}
+
+.checkboxGroup {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-size: 16px;
+        color: #ccc;
+        margin-top: 2em;
+       
+}
+
+.checkboxGroup input[type="checkbox"] {
+    border: 2px solid #4397C4;
+    appearance: none;
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 4px;
+    vertical-align: middle;
+}
+
+.checkboxGroup input[type="checkbox"]:checked {
+background: #4397C4;
+}
+
+.checkboxGroup label {
+    margin-left: 0.5rem;
+}
+
+.signInButton {
+    background-color: #4397C4;
+    color: white;
+    border: none;
+    padding: 1.00rem 1rem;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.signInButton:hover {
+    background-color: #4397C4;
+}
+
+.forgotPassword {
+    display: block;
+    text-align: center;
+    margin-top: 2rem;
+    color: #4397C4;
+    text-decoration: none;
+}
+
+.forgotPassword:hover {
+    text-decoration: underline;
+}
+
+.signUp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 3rem;
+    color: #fff;
+}
+
+.signUp a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.signUp a:hover {
+    text-decoration: underline;
+}

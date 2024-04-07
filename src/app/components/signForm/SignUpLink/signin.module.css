@@ -1,0 +1,11 @@
+.signUp {
+    display: block;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 2em;
+}
+
+.signUp:hover {
+    text-decoration: underline;
+}
